@@ -1,0 +1,15 @@
+include ../globals/common
+include ../../node_modules/bemto.pug/bemto
+include ../blocks/all
+
+block params
+	- var pageTitle = "Головна"
+doctype html
+html
+	head
+		title= pageTitle
+		block meta
+		block styles
+	body
+		block main
+		block scripts
